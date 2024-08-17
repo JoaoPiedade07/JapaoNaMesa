@@ -2,23 +2,25 @@ package com.example.japaonamesa.FavouriteScreen.FavDB;
 
 public class FavItem {
 
-    private String itemTitle;
+    private String favName;
     private String key_id;
-    private int item_image;
+    private int favImage;
 
-    public FavItem(String itemTitle, String key_id, int item_image) {
-        this.itemTitle = itemTitle;
+    public FavItem(String favName, String key_id, int favImage) {
+        this.favName = favName;
         this.key_id = key_id;
-        this.item_image = item_image;
+        this.favImage = favImage;
     }
 
-    public String getItemTitle() {
-        return itemTitle;
+    public String getFavName() {
+        return favName;
     }
 
     public String getKey_id() {
         return key_id;
     }
-    public int getItem_image() { return item_image;
+
+    public int getFavImage() {
+        return favImage;
     }
 }
